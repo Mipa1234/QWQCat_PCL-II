@@ -1,0 +1,82 @@
+<local:MyHint IsWarn="False" Margin="0,0,0,15"
+            Text="该启动器为QWQCat服务器特供版！作者：Mipa_ 若有选项无法完全看清，请拖动启动器窗口边框扩大窗口大小！若您不是专业玩家，请不要随意调整设置内的选项！" />
+
+<local:MyHint IsWarn="True" Margin="0,0,0,15"
+            Text="游戏前请先找管理员添加白名单！" />
+
+<local:MyCard Title="控制台" Margin="0,0,0,15" CanSwap="False">
+    <StackPanel Margin="25,40,23,15">
+        <local:MyHint IsWarn="True" Margin="0,6,0,0"
+                    Text="部分选项可能需要管理员权限！" />
+        <TextBlock TextWrapping="Wrap" Margin="0,6,0,0"
+                    Text="启动器选项" />
+        <StackPanel Margin="0,8,0,0" Orientation="Horizontal" HorizontalAlignment="Left">
+            <local:MyButton Margin="0,0,10,0" Width="140" Height="35" HorizontalAlignment="Left" Padding="13,0,13,0"
+                        Text="内存优化" EventType="内存优化"/>
+            <local:MyButton Margin="0,0,10,0" Width="140" Height="35" HorizontalAlignment="Left" Padding="13,0,13,0"
+                        Text="刷新主页" EventType="刷新主页"/>
+        </StackPanel>
+            <TextBlock TextWrapping="Wrap" Margin="0,6,0,0"
+                        Text="开始游戏--QWQCat服务器" />
+            <StackPanel Margin="0,8,0,0" Orientation="Horizontal" HorizontalAlignment="Left">
+                <local:MyButton Margin="0,0,10,0" Width="140" Height="35" HorizontalAlignment="Left" Padding="13,0,13,0"
+                            Text="IPv6" EventType="启动游戏" EventData="生存服1.20.4 生电版|Dingao.website:2052" ToolTip="游戏前请先找管理员添加白名单！"/>
+                <local:MyButton Margin="0,0,10,0" Width="140" Height="35" HorizontalAlignment="Left" Padding="13,0,13,0"
+                            Text="IPv4-1" EventType="启动游戏" EventData="生存服1.20.4 生电版|cn-zj-2.starryfrp.com:48180" ToolTip="游戏前请先找管理员添加白名单！"/>        
+                <local:MyButton Margin="0,0,10,0" Width="140" Height="35" HorizontalAlignment="Left" Padding="13,0,13,0"
+                            Text="IPv4-2" EventType="启动游戏" EventData="生存服1.20.4 生电版|cn-bj-aliyun-1.starryfrp.com:39041" ToolTip="游戏前请先找管理员添加白名单！"/>
+                <local:MyButton Margin="0,0,10,0" Width="140" Height="35" HorizontalAlignment="Left" Padding="13,0,13,0"
+                            Text="IPv4-3" EventType="启动游戏" EventData="生存服1.20.4 生电版|cn-cd.396pay.cn:17124" ToolTip="游戏前请先找管理员添加白名单！"/>
+        </StackPanel>
+        <TextBlock TextWrapping="Wrap" Margin="0,6,0,0"
+                    Text="游戏工具" />
+        <StackPanel Margin="0,8,0,0" Orientation="Horizontal" HorizontalAlignment="Left">
+                <local:MyButton Margin="0,0,10,0" Width="140" Height="35" HorizontalAlignment="Left" Padding="13,0,13,0"
+                            Text="卫星地图" EventType="打开网页" EventData="http://42.51.18.25:11111"/>
+                <local:MyButton Margin="0,0,10,0" Width="140" Height="35" HorizontalAlignment="Left" Padding="13,0,13,0"
+                            Text="ChunkBase" EventType="打开网页" EventData="https://www.chunkbase.com/"/>
+                <local:MyButton Margin="0,0,10,0" Width="140" Height="35" HorizontalAlignment="Left" Padding="13,0,13,0"
+                            Text="Minecraft.net" EventType="打开网页" EventData="https://www.minecraft.net/zh-hans"/>
+        </StackPanel>
+    </StackPanel>
+</local:MyCard>
+
+<local:MyCard Title="服务器公告--latest by 琪琪芽" Margin="0,0,0,15" CanSwap="False">
+    <StackPanel Margin="25,40,23,15">
+        <TextBlock TextWrapping="WrapWithOverflow" Margin="0,6,0,0"
+                    Text="第一批公会扶持开始：" />
+        <TextBlock TextWrapping="WrapWithOverflow" Margin="0,6,0,0"
+                    Text="为了更好地了解和支持我们的公会群体，我们计划进行公会登记，并统计公会及其地标位。以提供更好的扶持和服务。" />
+        <TextBlock TextWrapping="WrapWithOverflow" Margin="0,6,0,0"
+                    Text="因此，请各位公会会长或成员在收到本通知后第一时间进行公会登记。具体信息收集将包括以下内容：" />
+        <TextBlock TextWrapping="WrapWithOverflow" Margin="0,6,0,0"
+                    Text="* 公会名称" />
+        <TextBlock TextWrapping="WrapWithOverflow" Margin="0,6,0,0"
+                    Text="* 公会成立日期（如有）" />
+        <TextBlock TextWrapping="WrapWithOverflow" Margin="0,6,0,0"
+                    Text="* 公会成员数量" />
+         <TextBlock TextWrapping="WrapWithOverflow" Margin="0,6,0,0"
+                    Text="* 公会活动和目标简介" />
+        <TextBlock TextWrapping="WrapWithOverflow" Margin="0,6,0,0"
+                    Text="* 公会地标位置（公会主城）" />  
+        <TextBlock TextWrapping="WrapWithOverflow" Margin="0,6,0,0"
+                    Text="* 公会会长游戏名" />
+        <TextBlock TextWrapping="WrapWithOverflow" Margin="0,6,0,0"
+                    Text="* 公会会长企鹅号" />
+        <TextBlock TextWrapping="WrapWithOverflow" Margin="0,6,0,0"
+                    Text="请将以上信息通过私信的方式发送给我。" />  
+        <TextBlock TextWrapping="WrapWithOverflow" Margin="0,6,0,0"
+                    Text="这将为我们提供更多机会，以帮助和支持您的公会发展。" />    
+        <TextBlock TextWrapping="WrapWithOverflow" Margin="0,6,0,0"
+                    Text="如有任何疑问或问题，请随时与我联系。" />                                                                                                                                                                                                                                       
+    </StackPanel>
+</local:MyCard>
+
+<!--
+    <local:MyCard Title="Mipa_的专属板块" Margin="0,0,0,15" CanSwap="True">
+    <StackPanel Margin="25,40,23,15">
+        <TextBlock TextWrapping="Wrap" Margin="0,6,0,0"
+                    Text="114514" />
+    </StackPanel>
+</local:MyCard>
+-->
